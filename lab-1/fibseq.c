@@ -13,5 +13,7 @@ int main(int argc, char **argv)
     result = fibonacci(number);
     printf("The fibonacci sequence at %d is: %d\n", number, result);
   }
+
+  return 0;
 }
 

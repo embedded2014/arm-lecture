@@ -8,8 +8,12 @@ int main(int argc, char **argv)
   int result=0;
 
   printf("Please input a number:");
-  scanf("%d",&number);
-  result = fibonacci(number);   
-  printf("The fibonacci sequence at %d is: %d\n", number, result);
+
+  if (scanf("%d",&number) == 1) {
+    result = fibonacci(number);
+    printf("The fibonacci sequence at %d is: %d\n", number, result);
+  }
+
+  return 0;
 }
 

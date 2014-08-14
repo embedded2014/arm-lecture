@@ -29,7 +29,5 @@ fibonacci:
 	pop {r3, r4, r5, r6, r7, pc}		@EPILOG
 
 	@ END CODE MODIFICATION
-
-
 	.size fibonacci, .-fibonacci
 	.end
